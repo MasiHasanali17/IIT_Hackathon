@@ -1,0 +1,29 @@
+{
+  "general": [
+    {
+      "question": "What is the admission process?",
+      "answer": "The admission process includes online registration, document verification, and seat confirmation based on eligibility."
+    },
+    {
+      "question": "What are the college timings?",
+      "answer": "College timings usually run from morning to afternoon depending on the academic schedule."
+    },
+    {
+      "question": "Are scholarships available?",
+      "answer": "Yes, scholarships are available based on merit and financial background."
+    },
+    {
+      "question": "Does the college provide placement support?",
+      "answer": "Yes, the college provides placement training, resume building, and interview preparation."
+    }
+  ],
+  "hostels": [
+    {
+      "name": "Campus Hostel",
+      "room_occupancy": "3–4 Students",
+      "facilities": "AC / Non-AC",
+      "washroom": "Attached / Common",
+      "fees": "₹90,000 – ₹1,20,000 per annum"
+    }
+  ]
+}

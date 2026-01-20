@@ -1,0 +1,35 @@
+=<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CollegeGPT</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div class="chat-container">
+    <div class="chat-header">
+        🎓 CollegeGPT
+        <span>Smart College FAQ Assistant</span>
+    </div>
+
+    <div class="faq-buttons">
+        <button onclick="sendQuestion('What is the admission process?')">🎓 Admission</button>
+        <button onclick="sendQuestion('What are the college timings?')">⏰ Timings</button>
+        <button onclick="sendQuestion('Are scholarships available?')">💰 Scholarship</button>
+        <button onclick="sendQuestion('Does the college have hostels?')">🏠 Hostel</button>
+    </div>
+
+    <div id="chat-box"></div>
+
+    <div class="input-area">
+        <input type="text" id="question" placeholder="Ask your question..." />
+        <button onclick="sendQuestion()">Send</button>
+    </div>
+</div>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
