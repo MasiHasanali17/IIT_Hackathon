@@ -151,5 +151,3 @@ This project demonstrates how AI can:
 ## ✅ Conclusion
 
 The **Smart College Query / FAQ Resolver** is a scalable, secure, and efficient AI assistant that helps colleges streamline communication while ensuring privacy and ease of deployment.
-
-Just say 👍
